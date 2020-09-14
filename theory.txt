@@ -1,0 +1,89 @@
+Introduction
+Types
+Primitive Types
+arrays
+functions
+Objects
+Hoisting
+Closures
+Bind call apply
+this
+Prototypes
+Class
+Inheritance
+Polymorphism
+Singleton
+Module Pattern
+
+What is Javascript ?
+
+Javascript is  a programming language that allows you to implement complex features on web pages
+
+HTML - is a markup language that we use to structure and give meaning to web content
+
+CSS - is a language of style rules that we used to apply styling to our HTML content
+
+Javascript - is scripting langauge that enables you to create dynamically updating content
+
+1. Syntax Parser
+------------------
+A program that reads your code and determines what it does and if its syntax is valid
+
+2. Lexical Environment
+-----------------------
+Where something sits physically in the code you write
+
+3.Execution context
+--------------------
+A wrapper to help manage the code that is running.
+
+for .e.g. There are lots of lexical environments. 
+          Which one is currently running is managed by execution context.
+
+Name/ Value pairs
+-----------------
+A name which maps to a unique value
+
+Object
+---------
+A collection os name value pairs
+
+The Global environment and Global Object
+-----------------------------------------
+When ever code is run in javascript it runs inside the execution context
+
+1. Global execution context ( base)
+2. Local Execution context
+
+Execution Context ( Javscript engine creates these two things for us)
+----------------- 
+1. Global Object 
+2. this ( variable)
+
+Global - Means which is not inside the function 
+local - Means is inside the function
+
+var - helps you to declare your variable in javascript (ES5)
+
+function - is block of code
+
+Hoisting
+----------------------------------------------
+
+1. Read variabels and functions and add default value for variables 
+2. Code execution
+
+Hoisting
+----------
+1. Javascript engine will read your variables and functions and it adds 
+   memeory space for your varibales and functions
+
+2. variables will be added to memory and will be assigned a deafult value called 'undefined'
+
+3. function will be added to memory completely ( entire function)
+
+undefined - special value in javascript, whch takes up a memory space
+
+Note : Never assign undefined to a variable, because it is difficult to 
+       find whether the value is "undefined" or javascript engine sets it up
+
