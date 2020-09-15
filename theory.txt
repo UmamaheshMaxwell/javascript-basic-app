@@ -1,10 +1,12 @@
+                      JavaScript (ES5, Javascript, Vanilla Javascript)
+                      ------------------------------------------------
 Introduction
+Hoisting
 Types
 Primitive Types
-arrays
 functions
 Objects
-Hoisting
+arrays
 Closures
 Bind call apply
 this
@@ -86,4 +88,108 @@ undefined - special value in javascript, whch takes up a memory space
 
 Note : Never assign undefined to a variable, because it is difficult to 
        find whether the value is "undefined" or javascript engine sets it up
+
+
+Single Threaded ( Javascript)
+------------------------------
+one command at a time 
+
+Synchronous
+-----------
+one at a time
+
+Single threaded synchronus execution is only on thing executing at a time.
+
+Invocation()
+------------
+Running a function by using paranathesis
+
+functionb(){
+
+}
+
+function a() {
+   b()
+}
+
+a(); // Invocation
+
+Variable Environment
+--------------------
+Where the variable live
+
+Scope 
+-------
+Where a variable is avilable in your code
+
+Asynchrnous 
+------------
+More than one at a time
+
+Types
+-------
+
+Dynamic Typing ( Javscript)
+---------------
+ We don't have to tell the engine that what type of data a variable holds, 
+ it figures out while your code is running.
+
+Static Typing ( C# or Java)
+----------------------------
+bool isAdmin = "hello" // error
+
+Primitive Types
+----------------
+A type of data which represents a single value, any data which is not an object.
+
+1. undefined - represents lack of existance 
+               ( we should never set a avariable to this)
+
+var a = undefined;// Never do this
+
+2. NULL - reprsents lack of existance (we can set a variable using this)
+
+var a = null; // valid code
+
+3. Boolean - trur or false
+
+4. Number - Regular or Floating point number 
+
+5. String - A sequqnce of charcaters
+
+6. Symbol - used in ES6 
+
+Default Values
+----------------
+When you don't assign a value. the value you get or recieve is called default value
+
+functions
+----------
+1. Named or Regular functions
+2. Anonymous functions or function expressions
+3. IIFs ( Immediately invoked function)
+
+2. Anonymous function
+---------------------
+Function without Name
+
+Why to use ?
+------------
+1. We often use it as an argument to other function
+2. to create IIFs (Immediately invoked functions)
+
+3. Immediately Invoked functions
+--------------------------------
+IIFs are very useful because "they don't pollute the glbal object"
+
+Why to use ?
+------------
+1. They don't pollute global object
+2. do not create unncessary global variables and funcitions
+3. no conflict with other functions & variables even if they have same name
+4. organize javascript code
+5. Make javascript code maitainable
+
+-> In Javascript paranthesis can not contain statements , 
+   it can only contain an expression
 
