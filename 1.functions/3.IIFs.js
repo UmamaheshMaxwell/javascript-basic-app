@@ -13,3 +13,9 @@
 if(10 > 9){
     (console.log('this is valid'))
 }
+
+var fullName = (function(firstName, lastName){
+                    return firstName + ' ' + lastName
+                })('Uma', 'Mahesh')
+
+console.log(fullName)
