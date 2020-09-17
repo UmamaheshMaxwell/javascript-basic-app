@@ -10,6 +10,8 @@ console.log(person1[firstName])
 
 console.log(person1["firstName"])
 
+console.log(person1)
+
 console.log(person1.firstName)
 console.log(person1.lastName)
 
@@ -23,9 +25,6 @@ person1.address.city = "Hyderabad"
 
 person1.address.state ="NY"
 
-
-// var person2 = {}
-// var person3 = Object.create({});
-// console.log(person1)
-// console.log(person2)
-// console.log(person3)
+console.log(person1.address.street);
+console.log(person1.address.state);
+console.log(person1.address.city)

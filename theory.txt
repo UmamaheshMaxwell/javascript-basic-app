@@ -6,16 +6,19 @@ Types
 Primitive Types
 functions
 Objects
+JSON
 arrays
 Closures
 Bind call apply
 this
 Prototypes
+error handling
 Class
 Inheritance
 Polymorphism
 Singleton
 Module Pattern
+
 
 What is Javascript ?
 
@@ -214,3 +217,41 @@ we can create object in 4 different ways
 2. var obj = {}
 3. var obj = Object.create({})
 4. using constructor functions
+
+Object.create() - This method creates a new object using an existing 
+                  object as the prototype or new object
+
+JSON - Javascript Object Notation
+
+- this is is sinspired by javascript Object literal
+
+older way
+---------
+
+<data>
+   <firstName>Uma<firstName>
+   <lastName>Jagrav<lastName>
+<data>
+
+{"firstName": "uma" , 
+ "lastName":"jagrav", 
+ "grade": 2
+ "IsAdmin" : true
+ }
+
+1 . properties have to wrapped in quotes for JSON
+2. Anyhing which is JSON valid is valid in object literal 
+
+JSON.stringify() - Converts a javascript value in to seralized JSON string
+
+JSON.parse() - Deserializes a JSON string representation to a javascript object
+
+
+Arrays
+-------
+An array is an object that can store collection of items of same data type or different datatype
+
+{ } - Object literal 
+[ ] - Array literal 
+
+array index always start with 0
