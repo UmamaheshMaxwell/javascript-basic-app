@@ -8,8 +8,8 @@ functions
 Objects
 JSON
 arrays
-Closures
 Bind call apply
+Closures
 this
 Prototypes
 error handling
@@ -255,3 +255,16 @@ An array is an object that can store collection of items of same data type or di
 [ ] - Array literal 
 
 array index always start with 0
+
+Bind - Sets `this` keyword and creates a copy of that function
+
+call - sets `this` keyword and executes the function immediately 
+       and this doesn't create a new copy. here we pass comma 
+       seperated valuues
+
+apply - Apply is similar to call, it accepts an array of aruguments 
+        instead of comma seperated values
+
+
+The call , bind and apply methods are used to set `this` keyword  
+independent of how function is called

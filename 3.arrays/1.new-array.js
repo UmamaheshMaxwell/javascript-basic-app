@@ -15,6 +15,10 @@ console.log(people.length) // length of the array
 
 var students = new Array(3) // Dynamic
 
+var data = new Array();
+
+console.log('uma added empty array' , data)
+
 
 console.log(students.length)
 
