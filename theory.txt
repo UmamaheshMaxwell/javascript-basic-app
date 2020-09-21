@@ -11,10 +11,10 @@ arrays
 Bind call apply
 Closures
 this
-Prototypes
-error handling
 Class
+Prototypes
 Inheritance
+error handling
 Polymorphism
 Singleton
 Module Pattern
@@ -268,3 +268,13 @@ apply - Apply is similar to call, it accepts an array of aruguments
 
 The call , bind and apply methods are used to set `this` keyword  
 independent of how function is called
+
+Class
+-----
+Javascript is a prototype based language which contains no class like you find in C# or java
+
+javascript uses class a a function
+
+function Student(){
+   
+}

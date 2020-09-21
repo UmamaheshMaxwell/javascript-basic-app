@@ -8,8 +8,7 @@ a()
 
 var b = function(){
     console.log(this) // this is still global
-    this.newVariable = "Welcome"
-    
+    this.newVariable = "Welcome"   
 }
 
 b();
@@ -21,32 +20,20 @@ console.log(newVariable)
 
 var c = {
     name: 'uma',
-    log: function(){
-
+    log: function(name) {
         var self = this;
-
-        self.name ="Mahesh"
-        console.log(self); // this has become the Object
-
-        var setName = function(newName){
-            self.name = newName
-            console.log(self)
-
-
-            var setAnotherName = function(value){
-                self.name = value;
-                console.log(self)
-
+        self.name = name;
+            console.log(self);
+            var setName = function (name){
+                self.name = name
             }
-
-            setAnotherName('Swathi')
-        }
-
-        setName('Jagrav')
+             setName('Swathi')
+            console.log(this)
     }
 }
 
-c.log()
+c.log('Mahesh');
+
 
 // if function is outside then `this` becomes global obejct
 // if function is inside the object then `this` becomes that object
