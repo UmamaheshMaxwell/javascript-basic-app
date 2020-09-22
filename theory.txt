@@ -278,3 +278,29 @@ javascript uses class a a function
 function Student(){
    
 }
+
+Prototype
+----------
+The prototype is an object that is associated with every functions and objects by default
+in Javascript.
+
+Prototype is a special ttype of object to which additional properties can be attached 
+which will be shared across all its instances.
+
+__proto__
+---------------
+Every object which is created using object literal syntax or 
+constructor function with new Keyword includes __proto__ property 
+which points to prototype object of a function
+
+Inheritance
+------------
+One object gets access to the properties and methods of another object
+
+In javascript inheritance is supported by using prototype object.
+This is also called prototypal inheritance.
+
+Polymorphism
+--------------
+Function existing in many forms, in programming it describes the ability 
+for objects to present the same interface for different behaviours.

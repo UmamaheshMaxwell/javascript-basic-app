@@ -13,7 +13,7 @@ function Person(){
 var person1 =  new Person() // person1 is an instance
 var person2 =  new Person() // person2 is an instance
 
-// 3. constructor os a class
+// 3. constructor of a class
 
 function Order(){
     console.log('this is initiated')
