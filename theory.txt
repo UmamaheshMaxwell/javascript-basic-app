@@ -14,8 +14,8 @@ this
 Class
 Prototypes
 Inheritance
-error handling
 Polymorphism
+error handling
 Singleton
 Module Pattern
 
@@ -304,3 +304,41 @@ Polymorphism
 --------------
 Function existing in many forms, in programming it describes the ability 
 for objects to present the same interface for different behaviours.
+
+Errro handling
+---------------
+Javascript does not give any compiletime errors. Soemtimes we get runtime error 
+for accessing an undefined variable or calling undefined function.
+
+try {
+   // code that may thorw error
+}
+catch(ex) 
+{
+   // we write code to handle the exception
+}
+finally {
+   // code which executes irrespective of an error occurs or not
+}
+
+Singleton Design Pattern
+------------------------
+
+Limits the number of instnaces of a perticular object to just one. This single instance 
+is called the singleton.
+
+var obj1 = Singleton.singleInstance()
+var obj2 = Singleton.singleInstance()
+
+Singletons are useful in situations where system-wide actions need ro be coordinated
+from singe central place.
+
+eg : database connection pool
+
+The pool manages creation, destruction and lifetime of all database connections 
+for the enitre application
+
+Module Pattern
+------------------
+Deals with code encapsulation . It is used to create private and public 
+properties and methods
